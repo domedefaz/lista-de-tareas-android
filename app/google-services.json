@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23958341592",
+    "project_id": "listadetareas-7e171",
+    "storage_bucket": "listadetareas-7e171.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23958341592:android:06a8cd3d709592f1e5d4ad",
+        "android_client_info": {
+          "package_name": "com.metodologiaDefaz.listadetareas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0IfwD--bb3JdQcS4QI_AwAylbwCVenBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
