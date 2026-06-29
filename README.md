@@ -127,7 +127,7 @@ git clone https://github.com/domedefaz/lista-de-tareas-android.git
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Doménica Defaz**  
 Universidad Central del Ecuador — 2026  
