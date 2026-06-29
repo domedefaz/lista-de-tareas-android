@@ -2,40 +2,31 @@
 
 > Aplicación móvil Android para gestionar tareas personales y académicas. Gratuita, offline y en español.
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Room](https://img.shields.io/badge/Room_DB-E91E63?style=for-the-badge)
-![API](https://img.shields.io/badge/API_24%2B-378ADD?style=for-the-badge&logo=android&logoColor=white)
-![Estado](https://img.shields.io/badge/Estado-En_desarrollo-EF9F27?style=for-the-badge)
-
----
-
-## 🎯 Problema que resuelve
+## Problema que resuelve
 
 Los estudiantes universitarios de Quito gestionan múltiples actividades académicas y personales sin contar con una herramienta gratuita, en español y que funcione sin internet. Esta app resuelve ese problema ofreciendo un gestor de tareas **offline**, simple y adaptado al contexto local.
 
 ---
 
-## 🚀 Objetivo
+## Objetivo
 
 Desarrollar una aplicación Android que permita a los usuarios crear, visualizar, editar, eliminar y marcar tareas como completadas, mejorando su organización personal sin necesidad de conexión a internet.
 
 ---
 
-## 📋 Historias de usuario del MVP
+## Historias de usuario del MVP
 
 | ID | Historia de usuario | Estado |
 |---|---|---|
-| `HU1` | Como usuario quiero **crear** una tarea para organizar mis actividades | ✅ Completado |
-| `HU2` | Como usuario quiero **visualizar** mis tareas para controlar pendientes | ✅ Completado |
-| `HU3` | Como usuario quiero **editar** tareas cuando sea necesario | ✅ Completado |
-| `HU4` | Como usuario quiero **eliminar** tareas que ya no necesito | ✅ Completado |
-| `HU5` | Como usuario quiero **marcar** tareas como completadas | ✅ Completado |
+| `HU1` | Como usuario quiero **crear** una tarea para organizar mis actividades |  Completado |
+| `HU2` | Como usuario quiero **visualizar** mis tareas para controlar pendientes |  Completado |
+| `HU3` | Como usuario quiero **editar** tareas cuando sea necesario |  Completado |
+| `HU4` | Como usuario quiero **eliminar** tareas que ya no necesito |  Completado |
+| `HU5` | Como usuario quiero **marcar** tareas como completadas |  Completado |
 
 ---
 
-## ✅ Funcionalidades implementadas
+## Funcionalidades implementadas
 
 - [x] Registro e inicio de sesión con Firebase Authentication
 - [x] Validación de formulario con manejo de errores en español
@@ -49,7 +40,7 @@ Desarrollar una aplicación Android que permita a los usuarios crear, visualizar
 
 ---
 
-## 🏗️ Arquitectura de datos
+## Arquitectura de datos
 
 La aplicación sigue el patrón **ViewModel → DAO → Room**:
 
@@ -60,7 +51,7 @@ La aplicación sigue el patrón **ViewModel → DAO → Room**:
 
 ---
 
-## 🔔 Notificaciones locales
+## Notificaciones locales
 
 La app usa **WorkManager** para revisar si existen tareas pendientes con fecha de vencimiento igual al día actual, y muestra una notificación local si las encuentra. No requiere conexión a internet ni servicios externos.
 
@@ -70,22 +61,22 @@ La app usa **WorkManager** para revisar si existen tareas pendientes con fecha d
 
 ---
 
-## 🛠️ Tecnología utilizada
+## Tecnología utilizada
 
-- 💜 **Kotlin** — Lenguaje oficial de Android
-- 🏗️ **Android Studio Meerkat** — IDE oficial de Google
-- 🔥 **Firebase Authentication** — Gestión de usuarios y sesiones
-- 🗄️ **Room (SQLite)** — Almacenamiento local offline de tareas
-- 🔄 **LiveData + ViewModel** — Arquitectura reactiva sin recargas manuales
-- 📋 **RecyclerView + Adapter** — Listado eficiente de tareas
-- ⏰ **WorkManager** — Notificaciones locales programadas
-- 🎨 **Material Design 3** — Componentes de interfaz de usuario
-- 📱 **MinSDK API 24** — Android 7.0+ (cubre el 94% de dispositivos)
-- 🐙 **Git + GitHub** — Control de versiones
+- **Kotlin** — Lenguaje oficial de Android
+- **Android Studio Meerkat** — IDE oficial de Google
+- **Firebase Authentication** — Gestión de usuarios y sesiones
+- **Room (SQLite)** — Almacenamiento local offline de tareas
+- **LiveData + ViewModel** — Arquitectura reactiva sin recargas manuales
+- **RecyclerView + Adapter** — Listado eficiente de tareas
+- **WorkManager** — Notificaciones locales programadas
+- **Material Design 3** — Componentes de interfaz de usuario
+- **MinSDK API 24** — Android 7.0+ (cubre el 94% de dispositivos)
+- **Git + GitHub** — Control de versiones
 
 ---
 
-## ⚙️ Instrucciones de instalación
+## Instrucciones de instalación
 
 1. Clona el repositorio:
 ```bash
@@ -102,7 +93,7 @@ git clone https://github.com/domedefaz/lista-de-tareas-android.git
 
 ---
 
-## 🧪 Cómo probar el CRUD
+## Cómo probar el CRUD
 
 1. Registra una cuenta o inicia sesión
 2. Toca el botón **+** para crear una tarea nueva con título y fecha límite
@@ -114,7 +105,7 @@ git clone https://github.com/domedefaz/lista-de-tareas-android.git
 
 ---
 
-## 📱 Capturas de pantalla
+## Capturas de pantalla
 
 | Lista de tareas | Crear/editar tarea | Notificación |
 |---|---|---|
@@ -122,17 +113,17 @@ git clone https://github.com/domedefaz/lista-de-tareas-android.git
 
 ---
 
-## 📌 Estado actual del proyecto
+## Estado actual del proyecto
 
 | Hito | Estado |
 |---|---|
-| ✅ Entorno de desarrollo configurado | Completado |
-| ✅ Repositorio GitHub creado | Completado |
-| ✅ Prototipo de alta fidelidad en Figma | Completado |
-| ✅ Firebase Authentication implementado | Completado |
-| ✅ CRUD completo de tareas (MVP) | Completado |
-| ✅ Notificaciones locales con WorkManager | Completado |
-| 🔄 Pulido de UI y categorías de tareas | En progreso |
+| Entorno de desarrollo configurado | Completado |
+| Repositorio GitHub creado | Completado |
+| Prototipo de alta fidelidad en Figma | Completado |
+| Firebase Authentication implementado | Completado |
+| CRUD completo de tareas (MVP) | Completado |
+| Notificaciones locales con WorkManager | Completado |
+| Pulido de UI y categorías de tareas | En progreso |
 
 ---
 
