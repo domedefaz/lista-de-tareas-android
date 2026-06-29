@@ -1,4 +1,4 @@
-# 📝 Lista de Tareas — Android App
+# Lista de Tareas — Android App
 
 > Aplicación móvil Android para gestionar tareas personales y académicas. Gratuita, offline y en español.
 
